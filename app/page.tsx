@@ -326,7 +326,6 @@ export default function CurvedPanelStackerPage() {
                     {/*    <br/>*/}
                     {/*    <code>chatgpt prompt here...</code>*/}
                     {/*</div>*/}
-
                     </div>
                 </header>
 
