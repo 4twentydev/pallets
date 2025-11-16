@@ -94,10 +94,10 @@ function sortPanelsForStack(panels: Panel[]): Panel[] {
 }
 
 const SAMPLE_CSV = `label,length,width,radius,angleDeg
-P1,127,24,91,30
-P2,127,20,91,45
-P3,127,22,60,45
-P4,96,24,120,20`;
+sp101,127,24,91,30
+sp102,127,20,91,45
+sp103,127,22,60,45
+sp104,96,24,120,20`;
 
 // --- Download helpers / export builders ---
 
@@ -316,18 +316,16 @@ export default function CurvedPanelStackerPage() {
                 <header className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
                     <div>
                         <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight">
-                            Curved Panel Pallet Maker
+                            Elward's Curved Panel Pallet Maker
                         </h1>
                         <p className="text-sm text-slate-300 max-w-2xl mt-1">
                             Input panel dimensions, curving radius, and curving angle. The app
-                            sorts them so the flattest end up at the bottom of the pallet. From there you can group by
-                            length in keeping with the radius order or export to pdf and feed it to chatgpt with the
-                            following prompt...
+                            sorts them so the flattest end up at the bottom of the pallet. Change the value in # of
+                            pallets to however many you like and ECPPM will create the most logical configuration.
                         </p>
-                        <br/>
-                        <code>chatgpt prompt here...</code>
-                    </div>
-                    <div className="text-xs sm:text-sm text-slate-400 mt-2 sm:mt-0">
+                    {/*    <br/>*/}
+                    {/*    <code>chatgpt prompt here...</code>*/}
+                    {/*</div>*/}
 
                     </div>
                 </header>
