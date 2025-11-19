@@ -327,7 +327,7 @@ export default function CurvedPanelStackerPage() {
                     {/*    <code>chatgpt prompt here...</code>*/}
                     {/*</div>*/}
                     </div>
-                </header>
+                </header> 
 
                 {/* CSV helper */}
                 <section className="grid gap-4 lg:grid-cols-[2fr,3fr]">
